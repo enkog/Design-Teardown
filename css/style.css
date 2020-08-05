@@ -57,3 +57,32 @@ body {
 }
 
 /* -------Main Section-------- */
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'featured-article1 featured-article2'
+    'featured-article3 featured-article4'  
+}
+
+.featured-article1 {
+    grid-area: featured-article1;
+    background: black;
+}
+
+.featured-article2 {
+    grid-area: featured-article2;
+    background: red;
+}
+
+.featured-article3 {
+    grid-area: featured-article3;
+    background: green;
+}
+
+.featured-article4 {
+    grid-area: featured-article4;
+    background: yellow;
+}
+
+
+
