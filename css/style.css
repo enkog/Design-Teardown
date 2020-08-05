@@ -6,25 +6,54 @@
 }
 
 body {
-    font-family: 'Patua One', cursive;
+  font-family: 'Comic Neue', cursive;
 }
 
+/* --------Header Section-------- */
 .main-nav-section {
   background: red;
 }
 
 .nav-items-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 0 auto;
   align-items: center;
   list-style: none;
-  color: #fff;
+  font-size: 24px;
   font-weight: bold;
+  cursor: pointer;
 }
 
-.nav-items img {
-  width: 60%;
-  height: auto;
-  padding-top: 20px;
+.nav-items {
+  padding: 15px;
+  color: #fff;
+  border: none;
 }
+
+.nav-items:hover {
+  background: #a9a9a9;
+  border-radius: 5px;
+}
+
+.logo-img {
+  width: 20%;
+  height: auto;
+  padding-top: 40px;
+}
+
+.input-field  {
+  width: 90%;
+  border-radius: 5px;
+  padding: 15px 35px;
+  border-style: none;
+  font-size: x-large;
+}
+
+.fa-search {
+  position: absolute;
+  color: black;
+  margin: 20px 10px;
+}
+
+/* -------Main Section-------- */

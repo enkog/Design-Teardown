@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smashing Magazine</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac0885c8f6.js" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
     <header class="main-nav-section">
         <nav class="navbar" role="navigation">
             <ul class="nav-items-section">
-                <li class="nav-items">
+                <li class="nav-items logo-img" >
                     <img src="./img/nav-logo.svg" alt="Smashing magazine logo">
                 </li>
                 <li class="nav-items">Articles</li>
@@ -21,8 +24,16 @@
                 <li class="nav-items">Books</li>
                 <li class="nav-items">Events</li>
                 <li class="nav-items">Membership</li>
-                <li class="nav-items">More</li>
-                <li class="nav-items">Search</li>
+                <li class="nav-items menu-cat">
+                    <p>More</p>
+                   <!-- <span><img src="./img/menu-cat.svg" alt="menu cat"></span> -->
+                </li>
+                <li>
+                    <form action="#">
+                        <i class="fas fa-search"></i> 
+                        <input type="text" placeholder="Search articles..." class="input-field">   
+                    </form>
+                </li>
             </ul>
         </nav>
     </header>
