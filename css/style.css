@@ -176,14 +176,19 @@ a {
 .latest-post1,
 .latest-post2,
 .latest-post3,
-.latest-post4 {
+.latest-post4,
+.latest-post5,
+.latest-post6,
+.latest-post7
+{
   padding: 40px 50px;
   background: #A6ACAF;
   height: 600px;
 }
 
 .latest-post-grid h3,
-.content-article h3 {
+.content-article h3,
+.second-feature-section h3 {
   font-weight: bold;
   font-size: xx-large;
   line-height: 30px;
@@ -207,11 +212,15 @@ a {
   font-weight: bold;
 }
 
-.latest-post-grid .author{
+.latest-post-grid .author,
+.content-article .author,
+.second-feature-section .author {
   padding-top: 50px;
 }
 
-.latest-post-grid .article-text{
+.latest-post-grid .article-text,
+.content-article .article-text,
+.second-feature-section .article-text {
   padding-top: 20px;
   line-height: 30px;
   font-size: x-large;
@@ -236,7 +245,7 @@ a {
 
 .content-article img{
   width: 150px;
-  height: 35%;
+  height: 40%;
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -252,10 +261,17 @@ a {
   border-radius: 11px;
 }
 
-.feature-title-text,
 .feature-text{
   padding-bottom: 40px;
   color: var(--white);
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.feature-image .feature-title-text {
+  padding-bottom: 40px;
+  color: var(--white);
+  font-size: 50px;
 }
 
 .feature-btn{
@@ -280,4 +296,9 @@ a {
   color: var(--white);
   text-decoration: underline;
   padding-left: 2px;
+}
+
+.second-feature-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
