@@ -161,3 +161,35 @@ a {
   font-size: 30px;
 
 }
+
+/* Latest Post Section */
+.latest-post-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.latest-post1,
+.latest-post2,
+.latest-post3 {
+  padding: 40px 50px;
+  border: 1px solid black;
+}
+
+.latest-post-grid h3{
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+
+.latest-post-grid .author{
+  padding-top: 50px;
+}
+
+.latest-post-grid .article-text{
+  padding-top: 20px;
+  line-height: 30px;
+}
