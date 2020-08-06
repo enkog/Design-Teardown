@@ -44,6 +44,18 @@ body {
   width: 20%;
   height: auto;
   padding-top: 40px;
+  background: none;
+}
+
+.menu-cat {
+  display: flex;
+  align-items: center;
+}
+
+.menu-cat img {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
 }
 
 .input-field  {
@@ -66,6 +78,7 @@ body {
     grid-template-areas:
     'featured-article1 featured-article2'
     'featured-article3 featured-article4'
+    
 }
 
 .featured-article1 {
