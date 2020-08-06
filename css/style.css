@@ -155,35 +155,47 @@ a {
   font-weight: bold;
 }
 
-.arrow-icon {
+.fa-arrow-right {
   padding-top: 150px;
   width: 200px;
   font-size: 30px;
-
 }
 
 /* Latest Post Section */
 .latest-post-grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  
+}
+
+.date-text {
+  font-size: 14px;
+  font-weight: lighter;
 }
 
 .latest-post1,
 .latest-post2,
 .latest-post3 {
   padding: 40px 50px;
-  border: 1px solid black;
+  background: #A6ACAF;
+  height: 600px;
 }
 
-.latest-post-grid h3{
+.latest-post-grid h3 {
+  font-weight: bold;
+  font-size: xx-large;
+  line-height: 30px;
   padding-top: 10px;
-  font-size: 24px;
+}
+
+.author {
+  font-weight: bold;
+  color: whitesmoke;
 }
 
 .underline{
   text-decoration: underline;
 }
-
 
 .latest-post-grid .author{
   padding-top: 50px;
@@ -192,4 +204,16 @@ a {
 .latest-post-grid .article-text{
   padding-top: 20px;
   line-height: 30px;
+  font-size: x-large;
+  margin-bottom: 0;
+}
+
+.fa-long-arrow-alt-right {
+  width: 120px;
+  font-size: 20px;
+  bottom: 0;
+  left: 0;
+  padding: 40px 40px 30px 0 ;
+  margin-top: 80px;
+  color: #7b7d7d;
 }
