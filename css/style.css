@@ -195,10 +195,10 @@ a {
   text-decoration: underline;
 }
 
-.latest-post-sticky {
+.side-post-sticky {
   transform: rotate(90deg);
   position: absolute;
-  color: var(--white);
+  color: #000;
   margin: 30px 0 0 0;
   font-weight: bold;
 }
@@ -293,4 +293,32 @@ a {
 .second-latest-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* Week Section */
+.week-section {
+  background: #fff;
+}
+.person-of-the-week {
+  display: flex;
+  padding: 40px;
+}
+
+.person-of-the-week img {
+  border: 3px solid gray;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.person-of-the-week-article {
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+  line-height: 30px;
+  color: gray;
+  align-items: flex-start;
+}
+
+.pd-top {
+  padding-top: 20px;
 }
