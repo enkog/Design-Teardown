@@ -298,6 +298,7 @@ a {
 /* Week Section */
 .week-section {
   background: #fff;
+  margin-bottom: 30px;
 }
 .person-of-the-week {
   display: flex;
@@ -316,9 +317,50 @@ a {
   font-size: 20px;
   line-height: 30px;
   color: gray;
-  align-items: flex-start;
 }
 
 .pd-top {
   padding-top: 20px;
 }
+
+/* Weekly Articles Section */
+.weekly-articles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 0 20px 0 20px;
+  font-size: 15px;
+  line-height: 30px;
+  color: gray;
+}
+
+.week-article {
+  display: flex;
+  padding: 40px;
+}
+
+.week-article img {
+  width: 80px;
+  height: 80px;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+
+.gray-color {
+  color: gray;
+}
+
+.week-topic {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.weekly-articles .week-article-text {
+  margin-left: 30px;
+}
+
+.weekly-articles .week-author-name {
+ font-weight: bold;
+}
+
