@@ -336,6 +336,50 @@ a {
   text-transform: uppercase;
 }
 
+/* Promotion Table*/
+.promo-table-container{
+  background-color: #7b7d7d;
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.promo-section{
+  justify-content: center;
+  text-align: center;
+  padding: 5em 0 5em;
+}
+
+.promo-text{
+  color: var(--white);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.promo-title{
+  padding-bottom: 50px;
+}
+
+.extra-large{
+  font-size: calc(1.625rem + 1.6vw);
+}
+
+.promo-section a{
+  color: var(--white);
+}
+
+.add-mb{
+  display: block;
+  margin: 0 auto;
+}
+
+.promo-table-container img{
+  padding-top: 50px;
+  border-radius: 50%;
+  margin-bottom: -50px;
+}
+
 /* Week Section */
 .week-section {
   background: #fff;
