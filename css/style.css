@@ -247,25 +247,29 @@ a {
   margin-left: 20px;
 }
 
-.signup-img{
+.signup-img,
+.upcoming-container{
   background-color: #7b7d7d;
   border-radius: 11px;
 }
 
-.signup-text{
+.signup-text,
+.upcoming-text{
   padding-bottom: 40px;
   color: var(--white);
   font-size: 20px;
-  line-height: 20px;
+  line-height: 1.7;
 }
 
-.signup-img .signup-title-text {
+.signup-img .signup-title-text,
+.upcoming-title  {
   padding-bottom: 40px;
   color: var(--white);
   font-size: 50px;
 }
 
-.feature-btn{
+.feature-btn,
+.upcoming-btn{
   padding: 18px;
   font-size: 18px;
   border: 1px solid #ccc;
@@ -293,6 +297,43 @@ a {
 .second-latest-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* Upcoming Section */
+.upcoming-section{
+  background: #A6ACAF;
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.upcoming-container{
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 1em 10vw 7em;
+  border-radius: 11px;
+}
+
+.upcoming-section img{
+  width: 150px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 50%;
+}
+
+/* Latest More */
+.latest-more{
+  justify-content: center;
+  text-align: center;
+  padding: 5em 0 5em;
+}
+
+.latest-more a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 5px solid black;
+  text-transform: uppercase;
 }
 
 /* Week Section */
