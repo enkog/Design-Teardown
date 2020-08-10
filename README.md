@@ -5,7 +5,10 @@
 This project was developed as a learning project part of the Microverse curriculum.
 
 ## Desktop
-![Smashing Magazine] website gray shade heat map(./img/screenshot.PNG)
+![Smashing Magazine](./img/screenshot.PNG) gray shade heat map.
+
+This project is based on The Odin Project and Microverse peer programming collaborative coding. You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown
+
 
 ## Built With
 
