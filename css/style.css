@@ -395,6 +395,7 @@ a {
   width: 200px;
   height: 200px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .person-of-the-week-article {
@@ -562,3 +563,16 @@ a {
    margin-bottom: 20px;
    padding: 20px;
  }
+
+ .img-transition img{
+  transform: rotate(-15deg);
+  cursor: pointer;
+ }
+
+.img-transition img:hover {
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
+
+
+
