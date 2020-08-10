@@ -550,13 +550,6 @@ a {
   padding: 20px;
 }
 
- /* Twitter Link */
-/* .twitter-link {
-  justify-content: center;
-  text-align: center;
-  padding: 5em 0 5em;
-} */
-
 .twitter-link a {
   color: gray;
   text-decoration: none;
@@ -612,7 +605,7 @@ footer {
 
 .footer-title {
   text-transform: uppercase;
-  color: #fff000;
+  color: #ffffff;
   font-size: .9em;
   margin: 2em 0;
 }
