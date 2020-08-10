@@ -19,10 +19,45 @@ a {
   text-decoration: none;
 }
 
+.menu-cat img {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+
 .img-transition img {
   transform: rotate(-15deg);
   cursor: pointer;
- }
+}
+
+.signup-articles img {
+  width: 150px;
+  height: 40%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 50%;
+}
+
+.upcoming-section img {
+  width: 150px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 50%;
+}
+
+.person-of-the-week img {
+  border: 3px solid gray;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.week-article img {
+  width: 80px;
+  height: 80px;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
 
 .img-transition img:hover {
   transform: rotate(0deg);
@@ -68,13 +103,7 @@ a {
   align-items: center;
 }
 
-.menu-cat img {
-  width: 30px;
-  height: 30px;
-  margin-left: 5px;
-}
-
-.input-field  {
+.input-field {
   width: 90%;
   border-radius: 5px;
   padding: 18px 35px;
@@ -96,8 +125,8 @@ a {
 .main-article-grid {
   display: grid;
   grid-template-areas:
-  'featured-article1 featured-article2'
-  'featured-article3 featured-article4'
+    'featured-article1 featured-article2'
+    'featured-article3 featured-article4';
 }
 
 .articles {
@@ -119,7 +148,7 @@ a {
 
 .article2 {
   grid-area: featured-article2;
-  background:  #7b7d7d ;
+  background: #7b7d7d;
 }
 
 .article3 {
@@ -168,7 +197,7 @@ a {
 /* Latest Posts Section */
 .latest-posts {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   cursor: pointer;
 }
 
@@ -185,7 +214,7 @@ a {
 .latest-post6,
 .latest-post7 {
   padding: 40px 50px;
-  background: #A6ACAF;
+  background: #a6acaf;
   height: 600px;
 }
 
@@ -203,7 +232,7 @@ a {
   color: whitesmoke;
 }
 
-.underline{
+.underline {
   text-decoration: underline;
 }
 
@@ -235,24 +264,16 @@ a {
   font-size: 20px;
   bottom: 0;
   left: 0;
-  padding: 40px 40px 30px 0 ;
+  padding: 40px 40px 30px 0;
   margin-top: 80px;
   color: #7b7d7d;
 }
 
 /* Login Section */
 .signup-articles {
-  background: #A6ACAF;
+  background: #a6acaf;
   display: grid;
   grid-template-columns: 2fr 1fr;
-}
-
-.signup-articles img {
-  width: 150px;
-  height: 40%;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  border-radius: 50%;
 }
 
 .signup-img {
@@ -283,7 +304,7 @@ a {
 }
 
 .feature-btn,
-.upcoming-btn{
+.upcoming-btn {
   padding: 18px;
   font-size: 18px;
   border: 1px solid #ccc;
@@ -291,11 +312,11 @@ a {
   width: 30%;
 }
 
-.feature-btn:hover{
-  background-color: none;
+.feature-btn:hover {
+  background: none;
 }
 
-.login-text{
+.login-text {
   padding-top: 20px;
   font-size: 12px;
   color: var(--white);
@@ -316,7 +337,7 @@ a {
 
 /* Upcoming Section */
 .upcoming-section {
-  background: #A6ACAF;
+  background: #a6acaf;
   display: grid;
   grid-template-columns: 2fr;
 }
@@ -328,13 +349,6 @@ a {
   margin-right: 50px;
   padding: 1em 10vw 7em;
   border-radius: 11px;
-}
-
-.upcoming-section img {
-  width: 150px;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  border-radius: 50%;
 }
 
 /* Latest More */
@@ -400,16 +414,10 @@ a {
   background: #fff;
   margin-bottom: 30px;
 }
+
 .person-of-the-week {
   display: flex;
   padding: 40px;
-}
-
-.person-of-the-week img {
-  border: 3px solid gray;
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
 }
 
 .person-of-the-week-article {
@@ -439,13 +447,6 @@ a {
   padding: 40px;
 }
 
-.week-article img {
-  width: 80px;
-  height: 80px;
-  border: 3px solid gray;
-  border-radius: 10px;
-}
-
 .gray-color {
   color: gray;
 }
@@ -461,7 +462,7 @@ a {
 }
 
 .weekly-articles .week-author-name {
- font-weight: bold;
+  font-weight: bold;
 }
 
 /* Smashing Guide Section */
