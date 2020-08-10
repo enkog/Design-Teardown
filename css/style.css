@@ -449,3 +449,37 @@ a {
  font-weight: bold;
 }
 
+/* Design Systems */
+.design-system{
+  display: flex;
+  background: #7b7d7d;
+  padding: 70px;
+}
+
+.design-text{
+  color: var(--white);
+}
+
+.design-text h3{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.design-text h2{
+  margin: 20px 0;
+  font-size: xx-large;
+}
+
+.design-text p{
+  line-height: 30px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.design-system img{
+  width: 30%;
+  margin-left: 50px;
+  background: black;
+  margin-top: -7em;
+}
