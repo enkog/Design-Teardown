@@ -3,7 +3,8 @@
 }
 
 /* CSS Reset */
-*, body {
+*,
+body {
   margin: 0;
   padding: 0;
   font-family: 'Comic Neue', cursive;
@@ -99,7 +100,7 @@ a {
 .promo-table-container img {
   padding-top: 50px;
   margin-bottom: -50px;
-  width: 100;
+  width: 100px;
   border-radius: 50%;
 }
 
