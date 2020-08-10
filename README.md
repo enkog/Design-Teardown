@@ -3,7 +3,7 @@
 This project was developed as a learning project part of the Microverse curriculum.
 
 ## Desktop
-![a gray-shade heatmap of the Smashing Magazine website.](\img\screenshot.PNG)
+![a gray-shade heatmap of the Smashing Magazine website.](./img/screenshot.PNG)
 
 ## Built With
 
