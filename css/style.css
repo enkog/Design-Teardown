@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html{
+  background-color: #a6acaf;
+}
+
 /* Element Type Selectors */
 body {
   font-family: 'Comic Neue', cursive;
@@ -86,7 +90,6 @@ a {
 .nav-items-section {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   align-items: center;
   list-style: none;
   font-size: 18px;
@@ -287,7 +290,7 @@ a {
 .signup-articles {
   background: #a6acaf;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .signup-img {
@@ -304,26 +307,33 @@ a {
 
 .signup-text,
 .upcoming-text {
-  padding-bottom: 40px;
+  padding: 0 20px 20px 20px;
   color: var(--white);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.7;
 }
 
 .signup-img h3,
 .upcoming-title {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   color: var(--white);
-  font-size: 50px;
+  font-size: 40px;
 }
 
-.feature-btn,
+.feature-btn {
+  padding: 18px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 50%;
+}
+
 .upcoming-btn {
   padding: 18px;
   font-size: 18px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  width: 30%;
+  width: 28%;
 }
 
 .feature-btn:hover {
@@ -420,7 +430,6 @@ a {
 /* Week Section */
 .week-section {
   background: #fff;
-  margin-bottom: 30px;
 }
 
 .person-of-the-week {
@@ -448,6 +457,7 @@ a {
   font-size: 15px;
   line-height: 30px;
   color: gray;
+  background-color: white;
 }
 
 .week-article {
@@ -587,7 +597,7 @@ a {
 
 /* Footer Section */
 footer {
-  background: #a6acaf;
+  background-color: #a6acaf;
   color: var(--white);
   display: block;
   text-align: center;
@@ -659,4 +669,41 @@ footer {
   display: inline;
   margin-right: 1em;
   line-height: calc(1.5em + 0.2vw);
+}
+
+.main-title {
+  margin: 0 7%;
+  transform: translateX(80%);
+  margin-top: -95em;
+  width: 30em;
+  height: 6.7em;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.main-title span {
+  background-color: white;
+  line-height: 1.2em;
+  padding: 0.1em 0.1em;
+  font-size: 22px;
+  display: block;
+}
+
+.image-footer-left {
+  float: left;
+}
+
+.image-footer-right {
+  float: right;
+}
+
+.image-footer-left,
+.image-footer-right{
+  margin-bottom: -500px;
+  margin-top: -150px;
+}
+
+.image-footer-left img,
+.image-footer-right img {
+  width: 100px;
 }

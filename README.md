@@ -1,9 +1,11 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # DESIGN TEARDOWN
 
 This project was developed as a learning project part of the Microverse curriculum.
 
 ## Desktop
-![a gray-shade heatmap of the Smashing Magazine website.](./img/screenshot.PNG)
+![Smashing Magazine] website gray shade heat map(./img/screenshot.PNG)
 
 ## Built With
 
@@ -14,40 +16,42 @@ This project was developed as a learning project part of the Microverse curricul
 
 ## Live Demo
 
-<a href= "https://rawcdn.githack.com/enkog/Design-Teardown/6d98b5c9306a1219663ea3424a5a56ef6fe86803/index.html" target="_blank">Live version</a>
+[Live Demo Link](https://raw.githack.com/enkog/Design-Teardown/feature/index.html)
 
 ## Authors
 
-Prerequisites
-Webbrowser and access to internet
+## Prerequisites
+Web browser and access to internet
 
-Install
-[Download](Clone the repository to your machine)
-$ git clone https://github.com/enkog/Design-Teardown/tree/feature 
-Navigate to the project folder and execute the "index.html" file.
-Usage
-Just navigate through the page.
+## Getting Started
 
-Authors
-👤 Oluwaseun Iyadi
+**To get your own copy of our project clone the repository to your local machine.**
 
-Github: @CornerstoneII
-Twitter: @It_Iz_I
+## Authors
 
-👤 Nkiruka Oguadinma
+👤 **Oluwaseun Iyadi**
 
-Github: @enkog
-Twitter: @enkodes
+- Github: [@CornerstoneII](https://github.com/CornerstoneII)
+- Twitter: [@It_Iz_I](https://twitter.com/It_Iz_I)
+- Linkedin: [Oluwaseun Iyadi](https://www.linkedin.com/in/oluwaseun-iyadi-773584b4/)
 
-🤝 Contributing
+👤 **Nkiruka Oguadinma**
+
+- Github: [@enkog](https://github.com/enkog)
+- Twitter: [@enkodes](https://twitter.com/enkodes)
+
+
+## 🤝 Contributing
+
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support
+## Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+## Acknowledgments
 Microverse for showing the way for this project to happen
-📝 License
+
+## 📝 License
 This project is MIT licensed.
