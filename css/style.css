@@ -19,6 +19,7 @@ a {
   text-decoration: none;
 }
 
+/* Images */
 .menu-cat img {
   width: 30px;
   height: 30px;
@@ -57,6 +58,19 @@ a {
   height: 80px;
   border: 3px solid gray;
   border-radius: 10px;
+}
+
+.promo-table-container img {
+  padding-top: 50px;
+  border-radius: 50%;
+  margin-bottom: -50px;
+}
+
+.design-system img {
+  width: 30%;
+  margin-left: 50px;
+  background: black;
+  margin-top: -7em;
 }
 
 .img-transition img:hover {
@@ -365,7 +379,7 @@ a {
   text-transform: uppercase;
 }
 
-/* Promotion Table*/
+/* Promotion Table */
 .promo-table-container {
   background-color: #7b7d7d;
   display: grid;
@@ -401,12 +415,6 @@ a {
 .add-mb {
   display: block;
   margin: 0 auto;
-}
-
-.promo-table-container img {
-  padding-top: 50px;
-  border-radius: 50%;
-  margin-bottom: -50px;
 }
 
 /* Week Section */
@@ -482,7 +490,7 @@ a {
 
 .guide {
   padding: 40px;
-  border:1px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 10px;
   margin: 50px 30px 0 30px;
   background: #fff;
@@ -516,7 +524,7 @@ a {
 
 .long-guide {
   padding: 40px;
-  border:1px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 10px;
   grid-row: 2 / span 3;
   background: #fff;
@@ -540,14 +548,14 @@ a {
 .email-news {
   margin-bottom: 20px;
   padding: 20px;
- }
+}
 
  /* Twitter Link */
-.twitter-link {
+/* .twitter-link {
   justify-content: center;
   text-align: center;
   padding: 5em 0 5em;
-}
+} */
 
 .twitter-link a {
   color: gray;
@@ -556,7 +564,7 @@ a {
   text-transform: uppercase;
 }
 
- /* Design Systems */
+/* Design Systems */
 .design-system {
   display: flex;
   background: #7b7d7d;
@@ -584,16 +592,9 @@ a {
   width: 80%;
 }
 
-.design-system img  {
-  width: 30%;
-  margin-left: 50px;
-  background: black;
-  margin-top: -7em;
-}
-
- /* Footer Section */
-footer{
-  background: #A6ACAF;
+/* Footer Section */
+footer {
+  background: #a6acaf;
   color: var(--white);
   display: block;
   text-align: center;
@@ -611,7 +612,7 @@ footer{
 
 .footer-title {
   text-transform: uppercase;
-  color: #fff;
+  color: #fff000;
   font-size: .9em;
   margin: 2em 0;
 }
