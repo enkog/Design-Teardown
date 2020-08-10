@@ -16,6 +16,16 @@ body {
 a {
   text-decoration: none;
 }
+
+.img-transition img{
+  transform: rotate(-15deg);
+  cursor: pointer;
+ }
+
+.img-transition img:hover {
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
 /* --------Header Section-------- */
 .main-nav-section {
   background: #7f8c8d;
