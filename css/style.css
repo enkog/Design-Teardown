@@ -68,6 +68,16 @@ a {
   text-align: center;
 }
 
+.main-title {
+  margin: 0 7%;
+  transform: translateX(80%);
+  margin-top: -95em;
+  width: 30em;
+  height: 6.7em;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
 .main-article-grid .main-title {
   width: 30em;
   height: 400px;
@@ -197,7 +207,7 @@ a {
   padding: 10em 7vw 3em;
 }
 
-.articles h1 {
+.articles h2 {
   font-size: 40px;
   margin-top: 20px;
   line-height: 50px;
@@ -640,16 +650,6 @@ footer {
   display: inline;
   margin-right: 1em;
   line-height: calc(1.5em + 0.2vw);
-}
-
-.main-title {
-  margin: 0 7%;
-  transform: translateX(80%);
-  margin-top: -95em;
-  width: 30em;
-  height: 6.7em;
-  text-align: center;
-  letter-spacing: -1px;
 }
 
 .main-title span {
