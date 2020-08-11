@@ -1,17 +1,17 @@
-:root {
-  --white: white;
-}
-
 /* CSS Reset */
-*,
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Comic Neue', cursive;
   box-sizing: border-box;
 }
 
 /* Element Type Selectors */
+body {
+  font-family: 'Comic Neue', cursive;
+  max-width: 1440px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
 
 a {
   text-decoration: none;
@@ -40,6 +40,10 @@ a {
   border-radius: 50%;
 }
 
+.custom-width {
+  width: 150px;
+}
+
 .bd {
   border: 3px solid gray;
 }
@@ -64,6 +68,20 @@ a {
   text-align: center;
 }
 
+.main-article-grid .main-title {
+  width: 30em;
+  height: 400px;
+  z-index: 1;
+  margin-top: -1480px;
+}
+
+.main-latest {
+  background-color: white;
+  line-height: 1.2em;
+  padding: 20px;
+  font-size: 24px;
+}
+
 /* Images */
 .menu-cat img {
   width: 30px;
@@ -77,12 +95,7 @@ a {
 }
 
 .signup-articles img {
-  width: 150px;
   height: 40%;
-}
-
-.upcoming-section img {
-  width: 150px;
 }
 
 .person-of-the-week img {
@@ -106,7 +119,7 @@ a {
 
 .design-system img {
   width: 30%;
-  margin-left: 50px;
+  margin: 0 50px;
   background: black;
   margin-top: -7em;
 }
@@ -156,11 +169,12 @@ a {
 }
 
 .input-field {
-  width: 90%;
+  width: 300px;
   border-radius: 5px;
   padding: 18px 35px;
   border-style: none;
   font-size: 18px;
+  margin-right: 80px;
 }
 
 .search-item {
@@ -174,7 +188,6 @@ a {
 
 /* Main Section */
 .main-article-grid {
-  display: grid;
   grid-template-areas:
     'featured-article1 featured-article2'
     'featured-article3 featured-article4';
@@ -206,7 +219,8 @@ a {
   grid-area: featured-article4;
 }
 
-.author-name {
+.author-name,
+.week-author-name {
   font-weight: bolder;
   padding-right: 20px;
 }
@@ -248,7 +262,7 @@ a {
 .latest-post5,
 .latest-post6,
 .latest-post7 {
-  padding: 40px 50px;
+  padding: 40px 30px;
   background: #a6acaf;
   height: 600px;
 }
@@ -303,7 +317,6 @@ a {
 /* Sign Up Section */
 .signup-articles {
   background: #a6acaf;
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -319,7 +332,6 @@ a {
 .signup-text,
 .upcoming-text {
   padding: 0 20px 20px 20px;
-  color: var(--white);
   padding-bottom: 40px;
   font-size: 20px;
   line-height: 1.7;
@@ -328,7 +340,6 @@ a {
 .signup-img h3,
 .upcoming-title {
   padding-bottom: 10px;
-  color: var(--white);
   font-size: 40px;
 }
 
@@ -377,7 +388,7 @@ a {
 
 .upcoming-container {
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 100px;
   padding: 1em 10vw 7em;
   border-radius: 11px;
 }
@@ -420,12 +431,7 @@ a {
 }
 
 /* Week Section */
-.week-section {
-  background: #fff;
-}
-
 .person-of-the-week {
-  display: flex;
   padding: 40px;
 }
 
@@ -444,7 +450,7 @@ a {
 .weekly-articles {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
   font-size: 15px;
   line-height: 30px;
   color: gray;
@@ -452,8 +458,11 @@ a {
 }
 
 .week-article {
-  display: flex;
   padding: 40px;
+}
+
+.pd-left {
+  padding-left: 5px;
 }
 
 .gray-color {
@@ -477,18 +486,19 @@ a {
 }
 
 .smashing-guide {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 450px 700px;
+  grid-template-columns: 680px 680px;
+  grid-template-rows: 450px 400px;
   background: #ccc;
-  gap: 30px;
+  row-gap: 30px;
+  column-gap: 0;
 }
 
 .guide {
   padding: 40px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  margin: 50px 30px 0 30px;
   background: #fff;
+  margin: 50px 30px 0 30px;
 }
 
 .guide h2,
@@ -548,6 +558,7 @@ a {
 /* Design Systems */
 .design-system {
   padding: 70px;
+  margin: 0 auto;
 }
 
 .design-text h3 {
@@ -570,7 +581,6 @@ a {
 /* Footer Section */
 footer {
   background-color: #a6acaf;
-  color: var(--white);
   display: block;
 }
 
