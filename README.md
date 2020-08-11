@@ -21,8 +21,6 @@ This project is based on The Odin Project and Microverse peer programming collab
 
 [Live Demo Link](https://raw.githack.com/enkog/Design-Teardown/feature/index.html)
 
-## Authors
-
 ## Prerequisites
 Web browser and access to internet
 
